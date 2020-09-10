@@ -1,4 +1,5 @@
 # Roteiro
+** Rodar o `npx create-react-app <nome` antes de tudo (maldido npm demorado pra cacete)
 
 ## Introduçao
 [Iniciar na pagina do (React)[https://pt-br.reactjs.org/]]
@@ -24,5 +25,24 @@
 ## Começando o projeto
   - instalar o node (oq é? (javasciprt no backend) pq dele? (compilar os codigos e criar o servidor))
   - Começar do zero (`npm init`) ou adicionar a um projeto existente (trabalhoso)
-  - `npx create-react-app` (ou npm i -g, explicar a diferença)
-  -
+  - `npx create-react-app <nome>` (ou npm i -g, explicar a diferença)
+
+## Analisando oq foi gerado
+  - Abrir primeiro o package.json
+  - rodar o `npm run start`
+  - Dps a public
+  - Dps apagar o src
+
+## Começando
+  - Criar o index.js
+    - Ponto de entrada da apliação
+    - Codigo:
+```js
+let titleNode = document.createElement'(h1')
+titleNode.textContent = "Olá Mundo"
+
+let rootNode = document.getElementById'(root'
+rootNode.appendChild)titleNode)()
+```
+
+
