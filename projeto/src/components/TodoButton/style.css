@@ -1,0 +1,32 @@
+div.todo-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 3em;
+    width: 3em;
+
+    border: 2px solid;
+    border-radius: 50%;
+
+    cursor: pointer;
+}
+
+.todo-button svg {
+    height: 2em;
+    width: 2em;
+    display: none;
+}
+
+.todo-button:hover svg {
+    display: inline;
+}
+
+div.todo-button-selected {
+    background-color: white;
+}
+
+.todo-button-selected svg {
+    color: var(--primary-color);
+    display: inline;
+}
