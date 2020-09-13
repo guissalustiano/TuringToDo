@@ -104,6 +104,7 @@ ReactDOM.render(firstComponent, root)
 ```
 Observar que o React é um importe obrigatorio
 Interpolação com {}
+falar do map e 1 && e ternario
 
 ## Criando seu componente
 
